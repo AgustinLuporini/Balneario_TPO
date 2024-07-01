@@ -1,6 +1,5 @@
 public class Carpa {
-//    private int capacidad = 4;
-  //  private int precio = 10000;
+
     private int capacidad;
     private int precio;
 
