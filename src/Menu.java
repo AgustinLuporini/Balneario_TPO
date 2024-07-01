@@ -46,7 +46,7 @@ public class Menu {
 
     }
 
-    public void ejecOpcion(int opc, CarpaFamiliar carpaF, CarpaSobrilla sombrilla,
+    public void ejecOpcion(int opc, CarpaFamiliar carpaF, CarpaSombrilla sombrilla,
                            Membresia vip, Membresia intermedio, Membresia base, Balneario balneario,
                            Privilegio banio, Privilegio pileta, Privilegio buffet, Privilegio guarderia) {
 
@@ -74,7 +74,7 @@ public class Menu {
 
 
     public void opcion1(Membresia vip, Membresia intermedio, Membresia base,
-                        CarpaFamiliar carpaF, CarpaSobrilla sombrilla,
+                        CarpaFamiliar carpaF, CarpaSombrilla sombrilla,
                         Balneario balneario){
 
         //Registrar id
@@ -197,7 +197,7 @@ public class Menu {
 
 
 
-    public void opcion3(CarpaFamiliar carpaF, CarpaSobrilla sombrilla) {
+    public void opcion3(CarpaFamiliar carpaF, CarpaSombrilla sombrilla) {
         int opc;
 
         while (true) {
