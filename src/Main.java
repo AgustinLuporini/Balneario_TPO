@@ -11,7 +11,7 @@ public class Main {
         Membresia base = new Membresia(8500);
         //Creación carpas y sombrillas
         CarpaFamiliar carpaF = new CarpaFamiliar(15000,4);
-        CarpaSobrilla sombrilla = new CarpaSobrilla(9000, 2);
+        CarpaSombrilla sombrilla = new CarpaSombrilla(9000, 2);
         //Creación privilegios
         Privilegio banio = new Privilegio();
         Privilegio pileta = new Privilegio();
