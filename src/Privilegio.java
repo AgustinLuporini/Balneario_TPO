@@ -14,7 +14,4 @@ public class Privilegio {
         miembros.add(membresia);
     }
 
-   // public List<Membresia> getMiembros(){
-   //     return this.miembros;
-   //-} }
 }
