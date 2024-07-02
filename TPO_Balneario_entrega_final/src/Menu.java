@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 
 public class Menu {
 
-    List<String> opciones = Arrays.asList(
+    private List<String> opciones = Arrays.asList(
             "1-Registrar reservas",
             "2-Actualizar membresias",
             "3-Actualizar precio carpas/sombrillas",
