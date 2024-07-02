@@ -9,7 +9,7 @@ public class Reserva {
         this.dni = dni;
     }
 
-    public int calcularPrecio(){
+    public double calcularPrecio(){
         return carpa.getPrecio() + membresia.getPrecio();
     }
 

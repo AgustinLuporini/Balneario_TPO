@@ -1,9 +1,11 @@
-public class Carpa {
+public abstract class Carpa {
 
-    private int capacidad;
-    private int precio;
+    protected String nombre;
+    protected int capacidad;
+    protected double precio;
 
-    public Carpa(int precio, int capacidad){
+    public Carpa(String nombre, int precio, int capacidad){
+        this.nombre=nombre;
         this.precio=precio;
         this.capacidad=capacidad;
     }
@@ -11,7 +13,17 @@ public class Carpa {
     public void actualizarPrecio(int precio){
         this.precio = precio;
     }
-    public int getPrecio(){
+    public void setPrecio(int precio){
+        this.precio = precio;
+    }
+
+    public double getPrecio(){
         return this.precio;
     }
+    public String getNombre(){return this.nombre;}
+
+    public abstract void agrandar();
+    public abstract void achicar();
+
+
 }
